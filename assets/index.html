@@ -55,14 +55,17 @@
                     <img src="/demo_img/qrcode.png" alt="">
                 </div>
             </div>
-            <div class="cover" data-alt="图片的alt属性 文字描述"></div>
+            <div class="cover">
+                <button class="cover-close">X</button>
+                <div class="cover-inner" data-alt="图片的alt属性 文字描述"></div>
+            </div>
         </div>
     </main>
     <!-- 主体部分 end -->
     <!-- 底部按钮区域 start -->
     <footer>
         <a class="prev" href="javascript:;">上一个</a>
-        <button class="screenshots-btn">点击生成图片</button>
+        <button class="screenshots-btn" data-init-txt="点击生成图片" data-close-txt="点击关闭图片" type="button">点击生成图片</button>
         <a class="next" href="javascript:;">下一个</a>
     </footer>
     <!-- 底部按钮区域 end -->
