@@ -15,7 +15,8 @@
 
   // set 1rem = viewWidth / 10
   function setRemUnit () {
-    var rem = docEl.clientWidth / 10
+
+    var rem = (docEl.clientWidth - 30) / 10
     docEl.style.fontSize = rem + 'px'
   }
 
