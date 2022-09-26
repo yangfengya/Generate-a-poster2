@@ -151,6 +151,10 @@ main .wrapper .cover {
     height: 100%;
 }
 
+main .wrapper .show{
+    display: block;
+}
+
 main .wrapper .cover img {
     display: block;
     width: 100%;
